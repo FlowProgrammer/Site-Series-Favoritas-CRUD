@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,21 @@
 <body>
     <header>
         <h1>Séries Favoritas</h1>
-        <button class="btn-primario">Nova Série</button>
+        <button id="btnNovo" class="btn-primario">Nova Série</button>
     </header>
     <main>
-        <div class="lista-series">
+        <div id="listaSeries" class="lista-series">
 
         </div>
-        <section class="modal hidden">
-            <article class="modal-content"></
-            <h2 class="titulo-modal">Nova Série</h2>
-            <input type="text" id="name" placeholder="Digite o nome da Série">
+        <section id="modal" class="modal hidden">
+            <article class="modal-content" id="modal-content">
+
+            <h2 id="tituloModal" class="titulo-modal">Nova Série</h2>
+            <input type="text" id="nome" placeholder="Digite o nome da Série">
             <input type="number" id="nota" placeholder="Digite a nota Série">
-            <article class="acoes">
-                <button class="btn-primario">Salvar</button>
-                <button class="btn-secundario">Cancelar</button>
+            <article id="acoes" class="acoes">
+                <button  id="salvar" class="btn-primario">Salvar</button>
+                <button id="cancelar" class="btn-secundario">Cancelar</button>
             </article>
             </article>
         </section>

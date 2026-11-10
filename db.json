@@ -1,9 +1,10 @@
 {
   "series": [
     {
-      "nome": "Stranger Things",
-      "nota": "9",
-      "id": "1"
+      "nome": "dark",
+      "nota": "9.5",
+      "id": "3KqPZrQGcc4"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
