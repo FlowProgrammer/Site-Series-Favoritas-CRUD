@@ -4,6 +4,11 @@
       "nome": "dark",
       "nota": "9.5",
       "id": "3KqPZrQGcc4"
+    },
+    {
+      "nome": "Breaking Bad",
+      "nota": "10",
+      "id": "j0MseuECktQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

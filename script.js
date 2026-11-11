@@ -47,6 +47,7 @@ btnSalvar.addEventListener("click", async () => {
         await api.criarSerie({nome, nota})
     }
     fecharModal();
+    
 })
 function criarCard(serie){
      const card = document.createElement("div")
